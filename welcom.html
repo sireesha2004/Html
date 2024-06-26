@@ -1,0 +1,50 @@
+****app.js***
+import logo from './rvr.jpg';
+import './App.css';
+
+function App() {
+  return (
+    <p class="dotted">
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+         WELCOME TO RVR AND JC COLLEGE OF ENGINEERING
+        </p>
+        <h1>
+          THANK U SIRI
+        </h1>
+      </header>
+    </div>
+    </p>
+  );
+}
+
+export default App;
+
+
+****app.css***
+p{
+  color: rgb(55, 0, 255);
+  font-size: 3pc;
+  font-weight:bold;
+  position: absolute;
+  top: 0px;
+  left: 150px;
+  right: 20px;
+}
+p.dotted{border-style: dotted ;}
+h1{
+  color: palevioletred;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+}
